@@ -38,3 +38,6 @@ where last_name like '%es'
 
 -- 10. Within the film table, how many rating categories are there? And what rating has the most
 -- movies total?
+
+select rating
+from film

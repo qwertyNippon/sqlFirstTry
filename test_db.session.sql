@@ -42,3 +42,10 @@ where last_name like '%es'
 
 -- 9. How many payment amounts (4.99, 5.99, etc.) had a number of rentals above 250 for customers
 -- with ids between 380 and 430? (use group by and having > 250)
+
+-- 10. Within the film table, how many rating categories are there? 
+-- And what rating has the most movies total?
+
+select rating
+from film
+where rating like '%'
